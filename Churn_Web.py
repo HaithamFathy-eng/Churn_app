@@ -10,7 +10,7 @@ st.title(" Customer Churn Prediction ")
 
 st.write("Enter customer details to predict if they will churn")
 
-df = pd.read_excel(r"C:\Users\PC\OneDrive\Desktop\churn_dataset.xlsx")
+df = pd.read_excel("churn_dataset.xlsx")
 
 model = joblib.load("Churn_Model.pkl")
 
